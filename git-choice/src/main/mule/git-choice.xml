@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="ab75c41a-a2f1-4e03-bfd8-f5a2ed60c41d" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="git-choiceFlow" doc:id="980b9221-3e4c-481d-97ba-bb8f75f639a2" >
+		<http:listener doc:name="Choice-master" doc:id="ce224fee-7f82-466e-912a-0f2b2c9d6f12" path="/choice_master" config-ref="HTTP_Listener_config"/>
+		<logger level="INFO" doc:name="choice-master" doc:id="f9cb83f1-da87-428a-aaa3-711b4be28cae" />
+	</flow>
+</mule>
