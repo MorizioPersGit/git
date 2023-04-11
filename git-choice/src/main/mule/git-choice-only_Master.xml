@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="git-choice-only_MasterFlow" doc:id="6a8e16cc-cb3d-456f-9c9d-296f56129185" >
+		<logger level="INFO" doc:name="Only_Master" doc:id="5d6679ac-0e23-4bd8-9447-ded5d8a9974e" />
+	</flow>
+</mule>
