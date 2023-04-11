@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="git-choice1Flow" doc:id="624c6320-8888-46b9-bed4-075b2faa39be" >
+		<logger level="INFO" doc:name="choice1" doc:id="1cb8e383-f1f2-47f4-a54d-7d83665d03f9" />
+	</flow>
+</mule>
