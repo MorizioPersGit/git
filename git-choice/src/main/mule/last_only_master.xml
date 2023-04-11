@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="last_only_masterFlow" doc:id="d3967a01-96d6-4613-976d-dc1a4263988c" >
+		<logger level="INFO" doc:name="last_only_master" doc:id="df3f2140-e7d6-48e3-8f90-7b289e0746c9" />
+	</flow>
+</mule>
