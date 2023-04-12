@@ -7,6 +7,10 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<flow name="last_only_masterFlow" doc:id="d3967a01-96d6-4613-976d-dc1a4263988c" >
 		<logger level="INFO" doc:name="last_only_master" doc:id="df3f2140-e7d6-48e3-8f90-7b289e0746c9" />
 	</flow>
+	<flow name="last_only_masterFlow2" doc:id="1f0c0990-5c44-4ccc-9588-812422431aba" >
+		<logger level="INFO" doc:name="Logger" doc:id="ebda62e6-af59-4573-bb6c-d2158e4561c5" />
+		<logger level="INFO" doc:name="Logger" doc:id="36e6aeeb-d054-4c53-b069-e17753617c7f" />
+	</flow>
 	<flow name="last_only_masterFlow1" doc:id="7da881ab-94a2-4812-a388-115178ec7166" >
 		<logger level="INFO" doc:name="Logger" doc:id="9f46cdb9-cf36-476f-b80c-58d19aa5e7c2" />
 		<ee:transform doc:name="Transform Message" doc:id="8895378b-1981-40a3-946a-eab3882cc501" >
